@@ -11,10 +11,10 @@ $(function () {
         var date = $('input[name="date"]').val();
         var time = $('input[name="time"]').val();
         var names = '';
-                        $('#form-name').children().each(function (i, elm) {
-            names += $(elm).val() + '、';
-        })
-        names = names.slice(0, -1);
+         $('#form-name').children().each(function (i, elm) {
+             names += $(elm).val() + '、';
+         })
+         names = names.slice(0, -1);
         var number = $('input[name="number"]:checked').val();
         
 
